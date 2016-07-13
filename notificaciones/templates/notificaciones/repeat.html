@@ -1,0 +1,5 @@
+<select id="repeat-widget" name="{{name}}">
+	{% for val, option in choices %}
+	<option {% if val == value %}selected{% endif %} value="{{val}}">{{option}}</option>
+	{% endfor %}
+</select>

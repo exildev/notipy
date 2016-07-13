@@ -1,0 +1,52 @@
+
+.interval{
+	lists-tyle-type: none;
+    height: 55px;
+    margin-top: 10px;
+}
+
+#interval-mes{
+    width: 400px;
+    height: 400px;
+}
+
+#interval-mes li{
+    width: 60px;
+}
+
+.interval li{
+	display: inline-block;
+}
+
+.interval {
+    lists-tyle-type: none;
+}
+.interval > li {
+    display: inline-block;
+    margin-right: 7px;
+    height: 55px;
+}
+.interval label{
+}
+.interval > li> input[type="checkbox"] {
+    display: none;
+}
+.interval > li > label {
+    padding: 10px 20px;
+    background: #ccc;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: block;
+    top: 0px;
+}
+.interval > li> input[type="checkbox"]:checked~ label {
+    border: none;
+    border-bottom: 3px solid #039BE5;
+    position: relative;
+    top: -3px;
+}
