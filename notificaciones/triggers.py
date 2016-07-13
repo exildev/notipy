@@ -98,7 +98,6 @@ class TriggerIOPlugin(object):
 
 # end class
 
-
 class TriggerSMTPPlugin(object):
     name = 'smtpplugin'
     messages = {'save': 'a model has been created'}
